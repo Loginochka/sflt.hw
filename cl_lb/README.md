@@ -40,7 +40,7 @@
 
 [Конфиг nginx.conf](https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/nginx.conf)
 
-[Конфиг nginx - example-http.conf]((https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/example-http.conf)
+[Конфиг nginx - example-http.conf](https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/example-http.conf)
 
 [Конфиг nginx - upstream.inc](https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/upstream.inc)
 
