@@ -9,6 +9,6 @@
 
 ### Ответ 1
 
-[Конифг HAproxy]()
+[Конифг HAproxy](https://github.com/Loginochka/sflt.hw/tree/main/cl_lb/haproxy.cfg)
 
 [Скриншот запросов](https://github.com/Loginochka/sflt.hw/blob/main/media/request-hapr.png)
