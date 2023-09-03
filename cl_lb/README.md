@@ -27,3 +27,26 @@
 [Конфигг HAPrpxy](https://github.com/Loginochka/sflt.hw/tree/main/cl_lb/haproxy-2.cfg)
 
 [Скриншот запросов](https://github.com/Loginochka/sflt.hw/blob/main/media/dif_weight_request_hapr.png)
+
+-----
+
+### Задание 3*
+
+1. Настройте связку HAProxy + Nginx как было показано на лекции.
+2. Настройте Nginx так, чтобы файлы .jpg выдавались самим Nginx (предварительно разместите несколько тестовых картинок в директории /var/www/), а остальные запросы переадресовывались на HAProxy, который в свою очередь переадресовывал их на два Simple Python server.
+3. На проверку направьте конфигурационные файлы nginx, HAProxy, скриншоты с запросами jpg картинок и других файлов на Simple Python Server, демонстрирующие корректную настройку.
+
+### Ответ 3
+
+[Конфиг nginx.conf](https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/nginx.conf)
+
+[Конфиг nginx - example-http.conf]((https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/example-http.conf)
+
+[Конфиг nginx - upstream.inc](https://github.com/Loginochka/sflt.hw/blob/main/cl_lb/upstream.inc)
+
+[Конфиг HAProxy](https://github.com/Loginochka/sflt.hw/tree/main/cl_lb/haproxy-3.cfg)
+
+[Скриншот запросов](https://github.com/Loginochka/sflt.hw/blob/main/media/job-3-request.png)
+
+-----
+
