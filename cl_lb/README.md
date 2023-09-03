@@ -50,3 +50,18 @@
 
 -----
 
+### Задание 4*
+
+
+1. Запустите 4 simple python сервера на разных портах.
+2. Первые два сервера будут выдавать страницу index.html вашего сайта example1.local (в файле index.html напишите example1.local)
+3. Вторые два сервера будут выдавать страницу index.html вашего сайта example2.local (в файле index.html напишите example2.local)
+4. Настройте два бэкенда HAProxy
+5. Настройте фронтенд HAProxy так, чтобы в зависимости от запрашиваемого сайта example1.local или example2.local запросы перенаправлялись на разные бэкенды HAProxy
+6. На проверку направьте конфигурационный файл HAProxy, скриншоты, демонстрирующие запросы к разным фронтендам и ответам от разных бэкендов.
+
+### Ответ 4 
+
+[Конфиг HAProxy](https://github.com/Loginochka/sflt.hw/tree/main/cl_lb/haproxy-4.cfg)                                                  
+                                                                                                                                       
+[Скриншот запросов](https://github.com/Loginochka/sflt.hw/blob/main/media/job-4-request.png)
