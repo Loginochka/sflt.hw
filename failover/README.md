@@ -19,4 +19,4 @@
 
 ### Ответ 1
 
-[https://github.com/Loginochka/sflt.hw/blob/main/failover/src/Terraform-main.tf](Ссылка на playbook)
+[https://github.com/Loginochka/sflt.hw/blob/main/failover/src/Terraform-main.tf] (Ссылка на playbook)
