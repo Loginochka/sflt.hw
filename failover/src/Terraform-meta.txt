@@ -1,0 +1,23 @@
+#cloud-config
+disable_root: true
+timezone: Asia/Novosibirsk
+repo_update: true
+repo_upgrade: true
+apt:
+  preserve_sources_list: true
+
+packages:
+  - nginx
+
+runcmd:
+  - [ systemctl, nginx-reload ]
+  - [ systemctl, enable, nginx.service ]
+  - [ systemctl, start, --no-block, nginx.service ]
+users:
+  - name: danil
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID9ldGOIT1uvSU7/SDsjz+oYkoYeqpNfevhnosn5B8us danil@DESKTOP-DA4GPU9
+
