@@ -22,4 +22,5 @@
 [Ссылка на playbook](https://github.com/Loginochka/sflt.hw/blob/main/failover/src/Terraform-main.tf)
 
 [Ссылка на healthcheck](https://github.com/Loginochka/sflt.hw/blob/main/failover/src/load_balancer_health.png)
+
 [Ссылка на страничку по 80 порту](https://github.com/Loginochka/sflt.hw/blob/main/failover/src/load_balancer_url.png)
